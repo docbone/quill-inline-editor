@@ -1,0 +1,49 @@
+{
+  "name": "quill-inline-editor",
+  "version": "0.0.1",
+  "description": "A quill inline editor for Vue.js.",
+  "keywords": ["vue", "quill"],
+  "author": "long.zhang@ele.me",
+  "main": "dist/editor.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "dev": "cooking watch -p",
+    "build": "cooking build -c cooking.build.conf.js && cooking build -c cooking.build.conf.js -p",
+    "deploy": "cooking build --no-color"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "*",
+    "font-awesome": "^4.7.0",
+    "quill": "^1.2.6",
+    "typescript": "^2.3.2",
+    "vue": "^2.0.1",
+    "vue-awesome": "^2.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-transform-runtime": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-stage-0": "^6.0.0",
+    "babel-preset-stage-2": "^6.0.0",
+    "cooking": "^1.0.0",
+    "cooking-autoprefixer": "*",
+    "cooking-lint": "*",
+    "cooking-sass": "*",
+    "cooking-vue2": "*",
+    "css-loader": "^0.24.0",
+    "extract-text-webpack-plugin": "^2.0.0-beta",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.9.0",
+    "json-loader": "^0.5.4",
+    "postcss": "^5.1.0",
+    "postcss-loader": "^0.11.1",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^2.0.3",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.1.0-beta",
+    "webpack-dev-server": "^2.1.0-beta"
+  }
+}
