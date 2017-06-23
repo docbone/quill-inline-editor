@@ -8,7 +8,7 @@
   "scripts": {
     "prepublish": "npm run build",
     "dev": "cooking watch -p",
-    "build": "cooking build -c cooking.build.conf.js && cooking build -c cooking.build.conf.js -p",
+    "build": "cooking build -c cooking.build.conf.js -p",
     "deploy": "cooking build --no-color"
   },
   "license": "MIT",

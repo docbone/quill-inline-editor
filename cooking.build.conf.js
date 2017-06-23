@@ -12,6 +12,8 @@ cooking.set({
     port: 8080,
     publicPath: '/'
   },
+  format: 'umd',
+  moduleName: 'QuillInlineEditor',
 
   // production
   clean: true,
