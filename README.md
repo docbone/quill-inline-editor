@@ -3,6 +3,13 @@
 
 [Online Demo](https://jsfiddle.net/jeajdyds/1/)
 
+## Usage
+
+```HTML
+<script src="https://unpkg.com/quill@1.2.6/dist/quill.min.js"></script>
+<link href="https://unpkg.com/quill@1.2.6/dist/quill.core.css" rel="stylesheet" />
+```
+
 ## Development
 
 ```shell

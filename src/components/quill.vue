@@ -59,11 +59,6 @@
 </style>
 
 <script>
-  require('quill/dist/quill.core.css');
-  if (!window.Quill) {
-    window.Quill = require('quill/dist/quill.js');
-  }
-
   import 'vue-awesome/icons/align-center';
   import 'vue-awesome/icons/align-justify';
   import 'vue-awesome/icons/align-left';

@@ -37,6 +37,12 @@ cooking.set({
       commonjs: 'vue',
       commonjs2: 'vue',
       amd: 'vue'
+    },
+    quill: {
+      root: 'Quill',
+      commonjs: 'quill',
+      commonjs2: 'quill',
+      amd: 'quill'
     }
   },
   extends: ['vue2', 'lint', 'sass', 'autoprefixer']
