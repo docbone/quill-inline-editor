@@ -37,6 +37,7 @@
   background-color: #111;
   border-radius: 4px;
   padding: 5px 10px;
+  white-space: nowrap;
 }
 
 .quill-inline-editor-controls button {
